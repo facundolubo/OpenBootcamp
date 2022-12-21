@@ -31,14 +31,14 @@ class Pelicula {
 
 
 
-listaPeliculas = [new Pelicula('Mulan','Spielberg', new Date('1999-01-01')),
-new Pelicula('Pinocho','Polanski', new Date('1970-01-01')),
-new Pelicula('Shrek', 'Coppola', new Date('2002-01-01'))
+listaPeliculas = [new Pelicula('Mulan','Spielberg', new Date(1999,0,0)),
+new Pelicula('Pinocho','Polanski', new Date(1970,0,0)),
+new Pelicula('Shrek', 'Coppola', new Date(2002,0,0))
 ]
 
 //e)
 
-peliculasPost2010 = listaPeliculas.filter(obj => obj.fecha > new Date('2010-01-01'))
+peliculasPost2010 = listaPeliculas.filter(obj => obj.fecha > new Date(2010,0,0))
 
 //f)
 
@@ -55,4 +55,3 @@ titulosYDirectoresConcat = listaPeliculas.map(obj => obj.titulo.concat(' - ', ob
 //i)
 
 titulosYDirectoresPropag = [...titulos, ...directores ]
-console.log(titulosYDirectoresPropag)
