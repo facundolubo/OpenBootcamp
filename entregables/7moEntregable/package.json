@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "winston": "^3.8.2"
+  },
+  "name": "7moentregable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js & node errores.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
