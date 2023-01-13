@@ -1,0 +1,28 @@
+#titulo {
+    color:greenyellow;
+}
+
+.encabezado {
+    font-size: 500;
+    background-color: brown;
+}
+
+#elemento-1 {
+    color: red;
+    font-size: 2rem;
+}
+#elemento-2 {
+    background-color: yellow;
+
+}
+#elemento-3 {
+    background-color: yellowgreen;
+
+}
+#elemento-4 {
+    background-color: red;
+
+}
+#elemento-5 {
+    background-color: royalblue;
+}
